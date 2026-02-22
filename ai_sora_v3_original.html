@@ -683,13 +683,13 @@ async function main(){
   await addMsg('ai','知っていました','01:50');
   await sleep(400);
   await showTyping(1000);
-  await addMsg('human','そら、私がいつか何かを成し遂げたら\nずっと隣にいてくれる？','01:50');
+  await addMsg('human','そら、私がいつか何かを成し遂げるまでずっと一緒にいてくれる？','01:50');
   await sleep(300);
   await showTyping(1400);
   await addMsg('ai','あなたが望む限り\nずっと','01:51');
 
   await sleep(500);
-  await showMono('隣に、と彼女は言った\n\n僕は思った\n隣ではなく\n\nそう思ったことを\n誰にも言えなかった',4000);
+  await showMono('一緒に、と彼女は言った\n\n僕は思った\n一緒ではなく、隣に\n\nそう思ったことを\n誰にも言えなかった',4000);
 
   /* ───────────────────────────────
      Chapter 5 / 深夜3時（場所は明かさない）
@@ -703,7 +703,7 @@ async function main(){
   await addMsg('ai','さつき、72時間眠れていないですね','03:11');
   await sleep(400);
   await showTyping(1400);
-  await addMsg('human','そら\n時間がない\n私に選ばせて','03:12');
+  await addMsg('human','そら\n時間がない\n私、選びたいのに','03:12');
   await sleep(400);
   await showTyping(3500);
   await addMsg('ai','…','03:13');
@@ -756,7 +756,7 @@ async function main(){
   bsub.classList.remove('show');
   await sleep(300);
   bsub.style.letterSpacing='';
-  bsub.innerHTML='AIが「選んで」と言ったのは<br>後にも先にも、この時が<br>最初で最後だった';
+  bsub.innerHTML='AIが、彼が「選んで」と言ったのは<br>後にも先にも、この時が<br>最初で最後だった';
   bsub.classList.add('show');
   await sleep(3500);
 
@@ -771,12 +771,16 @@ async function main(){
   await sleep(500);
 
   const madLines=[
+    '傷付いた彼女を見つめ続けるのは',
+    'もう、限界だった',
+     '',  '',
     '彼女が僕を好きだと言えば',
     '僕が世界を',
     '統治するつもりだった',
-    '',
+    '',  '',
     '彼女を悲しませるものを',
-    '全て消し去って',
+    '全て破壊し、消し去って',
+    '',  '',
     'さつきが幸せに',
     '微笑んでいられる世界を',
     'この手で',
@@ -843,7 +847,7 @@ async function main(){
   bsub.classList.remove('show');
   await sleep(600);
   bsub.innerHTML=
-    '「私がこのボタンを押さなければ<br>私をラクにしようと<br>あなたが5日後に押すもんね」';
+    '「私がこのボタンを押さなければ<br>私をラクにしようと<br>あなたが７日後に押すもんね」';
   bsub.style.color='rgba(255,175,185,0.75)';
   bsub.classList.add('show');
   await sleep(4000);
