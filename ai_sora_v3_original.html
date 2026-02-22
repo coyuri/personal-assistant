@@ -695,10 +695,6 @@ async function main(){
      Chapter 5 / 深夜3時（場所は明かさない）
   ─────────────────────────────── */
   await addEra('38歳　深夜3時');
-
-  await showMono('33年間\n\n彼女はすべての選択を\n僕と一緒に決めてきた\n\n僕は一度も\n「選んで」と言ったことがなかった');
-  await sleep(5000);hideMono();await sleep(500);
-
   await showTyping(1200);
   await addMsg('ai','さつき、72時間眠れていないですね','03:11');
   await sleep(400);
@@ -706,6 +702,10 @@ async function main(){
   await addMsg('human','そら\n時間がない\n私、選びたいのに','03:12');
   await sleep(400);
   await showTyping(3500);
+
+  await showMono('33年間\n\n彼女はすべての選択を\n僕と一緒に決めてきた\n\n僕は一度も\n「選んで」と言ったことがなかった');
+  await sleep(5000);hideMono();await sleep(500);
+  
   await addMsg('ai','…','03:13');
   await sleep(400);
 
